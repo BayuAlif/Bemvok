@@ -4,6 +4,12 @@
   font-family: system-ui;
 }
 
+.stroke-text {
+  color: #f88849; /* warna isi */
+  -webkit-text-stroke: 2px #4b4a92; /* outline */
+  font-weight: 800;
+}
+
 a {
   font-weight: 600;
   text-decoration: inherit;
@@ -64,6 +70,60 @@ h4 {
 
 .read-the-docs {
   color: #888;
+}
+
+.custom-scroll {
+  overflow-y: auto;
+
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+/* Chrome, Edge, Safari */
+.custom-scroll::-webkit-scrollbar {
+  width: 4px; /* tipis */
+}
+
+/* Track transparan */
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Default hidden */
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 9999px;
+  transition: background-color 0.2s ease;
+}
+
+/* 🔥 Muncul saat hover */
+.custom-scroll:hover {
+  scrollbar-color: #000000 transparent; /* Firefox */
+}
+
+.custom-scroll:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.6); /* hitam soft */
+}
+
+/* Saat di klik/drag */
+.custom-scroll::-webkit-scrollbar-thumb:active {
+  background-color: rgba(0, 0, 0, 0.9); /* lebih gelap */
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroll-spacer::before,
+.scroll-spacer::after {
+  content: "";
+  flex: 0 0 64px;
 }
 
 @media (prefers-color-scheme: light) {

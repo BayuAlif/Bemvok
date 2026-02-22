@@ -40,7 +40,7 @@ export function Navbar() {
                     <li><a href="#" class="hover:underline">ADKESMA</a></li>
                     <li><a href="#" class="hover:underline">BIRPRO</a></li>
                     <li><a href="#" class="hover:underline">DEPOR</a></li>
-                    <li><a href="#" class="hover:underline">DKV</a></li>
+                    <li><a href="/biro-dkv" data-link class="hover:underline">DKV</a></li>
                 </ul>
 
                 <ul class="flex-1 min-w-40 p-6 space-y-4 list-disc marker:text-white pl-10 border-l-[3px] border-white">
@@ -62,7 +62,7 @@ export function Navbar() {
         </li>
 
         <li class="flex items-center"><a href="#" class="hover:text-gray-600 px-4 py-4 block">Programs</a></li>
-        <li class="flex items-center"><a href="#" class="hover:text-gray-600 px-4 py-4 block">Contact</a></li>
+        <li class="flex items-center"><a href="/contact" data-link class="hover:text-gray-600 px-4 py-4 block">Contact</a></li>
       </ul>
     </nav>
   `;
