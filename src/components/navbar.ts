@@ -41,21 +41,21 @@ export function Navbar() {
               </a>
               
               <div class="absolute left-1/2 -translate-x-1/2 top-full mt-0 bg-[#666666] shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 flex flex-row w-max text-white">
-                  <ul class="flex-1 min-w-40 p-6 space-y-4 list-disc marker:text-white pl-10 font-medium">
+                  <ul class="flex-1 min-w-40 p-6 space-y-4 marker:text-white pl-10 font-medium list-none">
                       <li><a href="#" class="hover:underline">Pengurus Inti</a></li>
                       <li><a href="#" class="hover:underline">ADKESMA</a></li>
                       <li><a href="#" class="hover:underline">BIRPRO</a></li>
                       <li><a href="#" class="hover:underline">DEPOR</a></li>
                       <li><a href="/biro-dkv" data-link class="hover:underline">DKV</a></li>
                   </ul>
-                  <ul class="flex-1 min-w-40 p-6 space-y-4 list-disc marker:text-white pl-10 border-l-[3px] border-white font-medium">
+                  <ul class="flex-1 min-w-40 p-6 space-y-4 marker:text-white pl-10 border-l-[3px] border-white font-medium list-none">
                       <li><a href="#" class="hover:underline">HUMAS</a></li>
                       <li><a href="#" class="hover:underline">KASTRAT</a></li>
                       <li><a href="#" class="hover:underline">KESTARI</a></li>
                       <li><a href="#" class="hover:underline">LITBANG</a></li>
                       <li><a href="#" class="hover:underline">PEDANK</a></li>
                   </ul>
-                  <ul class="flex-1 min-w-40 p-6 space-y-4 list-disc marker:text-white pl-10 border-l-[3px] border-white font-medium">
+                  <ul class="flex-1 min-w-40 p-6 space-y-4 marker:text-white pl-10 border-l-[3px] border-white font-medium list-none">
                       <li><a href="#" class="hover:underline">PEMKAR</a></li>
                       <li><a href="#" class="hover:underline">PSDM</a></li>
                       <li><a href="#" class="hover:underline">SENBUD</a></li>
